@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: posts-application
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/posts
+    username: posts_user
+    password: posts_user_password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
